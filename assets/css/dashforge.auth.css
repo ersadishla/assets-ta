@@ -1,0 +1,56 @@
+/*
+ * Dashforge Auth Pages (Signin, Signup, etc.)
+ *
+ * This style is use in auth pages.
+ *
+ */
+.content-auth {
+  min-height: calc(100vh - 106px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .content-auth > .container {
+    padding: 0; }
+    @media (max-width: 1139px) {
+      .content-auth > .container {
+        max-width: none;
+        padding: 0 20px; } }
+    .content-auth > .container:first-child {
+      flex: 1; }
+
+.content-auth-alt {
+  min-height: calc(100vh - 106px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .content-auth-alt .container {
+    padding: 0; }
+    @media (max-width: 1139px) {
+      .content-auth-alt .container {
+        max-width: none; } }
+
+.sign-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px; }
+  @media (min-width: 767px) {
+    .sign-wrapper {
+      width: 340px;
+      margin-left: 80px } }
+  .sign-wrapper .form-group label {
+    display: block;
+    margin-bottom: 5px; }
+  @media (max-width: 767px) {
+    .sign-wrapper{
+      width: 340px;
+      text-align: center;
+      margin: 0;
+      position: relative;
+      left: 50%;
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+  }
+
